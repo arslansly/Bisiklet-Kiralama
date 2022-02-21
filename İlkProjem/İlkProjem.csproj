@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E583D0CF-B33E-4BE9-A1EA-EC5749589A34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>İlkProjem</RootNamespace>
+    <AssemblyName>İlkProjem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ANA MENÜ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ANA MENÜ.Designer.cs">
+      <DependentUpon>ANA MENÜ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listele Ve Hesapla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listele Ve Hesapla.Designer.cs">
+      <DependentUpon>Listele Ve Hesapla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Müşteri Kayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Müşteri Kayıt.Designer.cs">
+      <DependentUpon>Müşteri Kayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Müşteri Listeleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Müşteri Listeleme.Designer.cs">
+      <DependentUpon>Müşteri Listeleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GİRİŞ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GİRİŞ.Designer.cs">
+      <DependentUpon>GİRİŞ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bisiklet Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bisiklet Ekle.Designer.cs">
+      <DependentUpon>Bisiklet Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bisiklet Kirala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bisiklet Kirala.Designer.cs">
+      <DependentUpon>Bisiklet Kirala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ANA MENÜ.resx">
+      <DependentUpon>ANA MENÜ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listele Ve Hesapla.resx">
+      <DependentUpon>Listele Ve Hesapla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Müşteri Kayıt.resx">
+      <DependentUpon>Müşteri Kayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Müşteri Listeleme.resx">
+      <DependentUpon>Müşteri Listeleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GİRİŞ.resx">
+      <DependentUpon>GİRİŞ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bisiklet Ekle.resx">
+      <DependentUpon>Bisiklet Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bisiklet Kirala.resx">
+      <DependentUpon>Bisiklet Kirala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-leandro-boogalu-1149601.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-bianca-gasparoto-1753137.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-cristiana-raluca-686230.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\904489c94d66fc97682b2ee8666e0719--polo-google-search.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded-in-photoretrica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\websiteplanet-qr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3200x1800_px_Bicycle_bokeh_hd_wallpapers_street-1047089.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bike-commencal-bicycle-mountain-bike-wallpaper-preview.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

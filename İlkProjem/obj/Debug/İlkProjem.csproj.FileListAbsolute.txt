@@ -1,0 +1,16 @@
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\bin\Debug\İlkProjem.exe.config
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\bin\Debug\İlkProjem.exe
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\bin\Debug\İlkProjem.pdb
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.csproj.AssemblyReference.cache
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.Form1.resources
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.Properties.Resources.resources
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.csproj.GenerateResource.cache
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.csproj.CoreCompileInputs.cache
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.exe
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.pdb
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.Form2.resources
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.Form3.resources
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.Form4.resources
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.Form5.resources
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.Form6.resources
+C:\Users\Suleyman.Arslan\source\repos\İlkProjem\İlkProjem\obj\Debug\İlkProjem.Listele_Ve_Hesapla.resources
